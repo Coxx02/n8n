@@ -139,7 +139,7 @@ export const usePersonalizedTemplatesStore = defineStore(STORES.PERSONALIZED_TEM
 				categories: [],
 				search: '',
 				sort: 'rank:desc',
-				apps: selectedApps.length > 0 ? selectedApps : undefined,
+				nodes: selectedApps.length > 0 ? selectedApps : undefined,
 				combineWith: 'or',
 			});
 
